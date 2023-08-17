@@ -3,9 +3,12 @@ import mongoose from 'mongoose'
 import route from './route/userRoutes.js'
 import blogroutes from './route/blogRoutes.js'
 import cors from 'cors'
+import 'dotenv/config'
+
+
 
 const app = express()
-const port = 5000
+const port = process.env.PORT
 //Cors For Enable server to server send data  
 app.use(cors())
 //Parsing Json data From req Body
@@ -16,7 +19,7 @@ app.use('/blog',blogroutes)
 
 //Mongodb Atlas Connection 
 mongoose
-  .connect('mongodb+srv://vel02:lBo4OIFTggczDbkM@cluster0.bzn6k2r.mongodb.net/Blog?retryWrites=true&w=majority')
+  .connect(process.env.MONGODB_URL)
   .then(
     ()=>{console.log('MONGODB connect')}
     )
