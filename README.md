@@ -23,7 +23,7 @@ Blog Web Application for a client. Where the client is able to Add , upadte, del
 Clone the project
 
 ```bash
-  git clone https://github.com/svvel/ToDo-App.git
+  git clone https://github.com/svvel/Blog-App.git
 ```
 
 Go to the project directory
@@ -50,7 +50,7 @@ Start the server
 Clone the project
 
 ```bash
-  git clone https://github.com/svvel/ToDo-App.git
+  git clone https://github.com/svvel/Blog-App.git
 ```
 
 Go to the project directory
