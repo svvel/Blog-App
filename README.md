@@ -3,11 +3,11 @@
 Blog Web Application for a client. Where the client is able to Add , upadte, delete his Blogs. 
 
 <h4 align="left">
-  Frontend Deployed on Netlify &#160; <img src="https://media.giphy.com/media/FbUuPsOW3oOCdAHexF/giphy.gif" width="50"> &#160;https://blogpost-appoobu.onrender.com 
+  Frontend Deployed on Netlify &#160; <img src="https://media.giphy.com/media/FbUuPsOW3oOCdAHexF/giphy.gif" width="50"> &#160; https://site-blogs.netlify.app/
 </h4>
 
 <h4 align="left">
-  Backend Deployed on Render.com &#160; <img src="https://media.giphy.com/media/FbUuPsOW3oOCdAHexF/giphy.gif" width="50"> &#160;https://blogpostappoobu.onrender.com
+  Backend Deployed on Render.com &#160; <img src="https://media.giphy.com/media/FbUuPsOW3oOCdAHexF/giphy.gif" width="50"> &#160; https://blogpost-app-oobu.onrender.com
 </h4>
 
 ## Features
