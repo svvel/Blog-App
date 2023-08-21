@@ -38,8 +38,9 @@ export default function Auth() {
         .then(()=>{dispatch(login())})
         .then(()=>{navigator('/blogs')})
         .catch((data)=>{
-          setMessage(data.response)
-          setIsuser(true)
+          console.log(data)
+          // setMessage(data.response)
+          // setIsuser(true)
         })
   };
 
