@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const Base_Url = "http://localhost:5000/"
+const Base_Url = "https://blogpost-app-oobu.onrender.com/"
 
 export const sendRequest =async (type,loginobj)=>{
 
